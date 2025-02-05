@@ -1,4 +1,3 @@
-[HTML Version](https://davidhampgonsalves/resume)
-[PDF Version](https://davidhampgonsalves/resume.pdf)
+[HTML Version](https://github.com/Nazarique/Resume/blob/776a9a46b825a6dcbc62272ad67881fde07fb590/cv.html)
 
-Previous I was using Markdown for this but it lacked the flexibility to and customizability I wanted so HTML is the interm solution. The styling is based on [mnjul/html-resume](https://github.com/mnjul/html-resume).
+The styling is based on [mnjul/html-resume](https://github.com/mnjul/html-resume).

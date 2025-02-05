@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="Font-Awesome-4/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="index.css" />
   <style>
     /* Reduce the font size for the dates */
@@ -10,6 +10,7 @@
       font-size: 0.9em; /* Adjust as needed */
       color: #666; /* Optional: change the color to make the dates less prominent */
     }
+
     /* Add spacing */
     section.main-block {
       margin: -5px 0; /* Space between main sections */
@@ -56,13 +57,25 @@
   <section id="main">
     <header id="title">
       <h1>Henrique Nazário</h1>
-      <span class="subtitle">Payment Application Engineer</span>
+      <span class="subtitle">Software Developer</span>
     </header>
 
-    <section class="bio">
-      <p>
-        I am a 27-year-old software developer with a degree in Electrical Engineering, currently based in Germany and learning German. I have three years of experience developing microservices and payment automation solutions for POS systems. My technical skills include C and C++ for embedded systems, Java for microservices, and tools like Git and Docker.
-      </p>
+    <style>
+      .bio {
+        margin-left: 55px; /* Adjust this value for desired left margin */
+        max-width: 600px; /* Adjust width to maintain readability */
+      }
+
+      .bio p {
+        text-align: justify;
+      }
+    </style>
+     <section class="bio">
+      <p>I am an Electrical Engineer with experience in backend development and embedded systems. I have been working with secure payment systems, microservices, and embedded technology.</p>
+
+      <p>Proficient in C, C++, Java, and backend development, I have built RESTful APIs and microservices for Samsung Knox, using technologies such as Spring Boot, Docker, and MongoDB. Additionally, I have worked with secure POS payment systems, ensuring compliance with PCI MPoC and international encryption standards.</p>
+
+      <p>My research background includes three years at UTFPR University, focusing on robotics, machine learning, and the development of an emergency medical ventilator during the COVID-19 crisis. Currently, I am expanding my international experience through volunteer work in Germany, improving my German language skills while supporting a reptile shelter and a senior care home.</p>
     </section>
 
     <section class="main-block">
@@ -82,10 +95,10 @@
             <span class="place">SiDi (Samsung Global)</span>
             <span class="location">Remote, São Paulo</span>
           </header>
-          <ul>
-            <li>Developed microservices for mPOS solutions, ensuring PCI MPoC compliance.</li>
-            <li>Worked on secure backend systems to meet industry security standards.</li>
-            <li>Implemented backend solutions using Java, Spring Boot, and MongoDB for device monitoring.</li>
+          <ul>            
+            <li>Developed microservices for Samsung Knox and mPOS solutions, improving security and efficiency.</li>
+            <li>Implemented backend solutions based in Java using NoSQL (MongoDB) for optimized data handling.</li>
+            <li>Utilized AWS services for cloud deployment, ensuring scalability.</li>
           </ul>
         </div>
       </section>
@@ -102,9 +115,9 @@
             <span class="location">São Paulo, Brazil</span>
           </header>
           <ul>
-            <li>Developed POS payment solutions, ensuring compliance with ISO 8583 and PCI standards.</li>
+            <li>Developed secure POS payment solutions using C/C++, ensuring compliance with PCI, EMV and ISO standards for transaction security.</li>
             <li>Standardized code for compatibility across multiple hardware platforms.</li>
-            <li>Implemented and tested payment features like credit, debit, and installments.</li>
+            <li>Implemented and tested payment credit, debit, and installments features, as well as Cielo acquirer requirements.</li>
           </ul>
         </div>
       </section>
@@ -121,8 +134,8 @@
             <span class="location">São Paulo, Brazil</span>
           </header>
           <ul>
-            <li>Learned EMV protocols and standards, contributing to the development of compliant payment systems.</li>
-            <li>Assisted in debugging and testing payment solutions to meet industry standards.</li>
+            <li>Ensured PinPad and POS terminals met industry standards (ABECS, ISO8583, ISO7816).</li>
+            <li>Implemented, tested and debugged payment features using C/C++.</li>
           </ul>
         </div>
       </section>
@@ -145,7 +158,7 @@
             <span class="location">Ponta Grossa, Brazil</span>
           </header>
           <ul>
-            <li>Worked as a University Research Assistant for three years, specializing in machine learning and contributing to published academic papers.</li>
+            <li>Specialized in machine learning research, contributing to published academic papers.</li>
             <li>Engaged in extracurricular projects in electrical engineering and robotics, collaborating effectively in teams.</li>
           </ul>          
         </div>
@@ -165,13 +178,13 @@
         <div class="details">
           <header>
             <h3>Volunteer - SeniorenWohnen</h3>
-            <span class="location">Sozialservice-Gesellschaft des BRK GmbH</span>
+            <span class="place">Sozialservice-Gesellschaft des BRK GmbH</span>
             <span class="location">Munich, Germany</span>
           </header>
           <ul>
             <li>Accompanying on shopping trips and to the doctor, providing guidance and companionship.</li>
-            <li>Help with the use of computers and mobile devices.</li>
-            <li>Practice German by spending time in friendly conversation to oﬀer social support.</li>
+            <li>Help seniors use computers and mobile devices.</li>
+            <li>Practice German by spending time in friendly conversation to offer social support.</li>
           </ul>
         </div>
       </section>
@@ -208,12 +221,12 @@
         <div class="decorator"></div>
         <div class="details">
           <header>
-            <h3>Development of an Emergency Mechanical Ventilator</h3>
+            <h3>Emergency Mechanical Ventilator Development</h3>
             <span class="place">Federal University of Technology of Paraná</span>
           </header>
           <ul>
             <li>Developed ventilators to combat COVID‑19 using windshield wiper motors.</li>
-            <li>Delivered 10 fully functional ventilators, successfully tested by responsible entities.</li>
+            <li>Received recognition from government health entities for successful testing.</li>
           </ul>
         </div>
       </section>
@@ -224,6 +237,7 @@
     <div class="side-block" id="contact">
       <h1>Contact</h1>
       <ul>
+        <li><i class="fa fa-building"></i> Berlin, Germany</li>
         <li><i class="fa fa-envelope"></i> <a href="mailto:henrique.nazario.rocha@outlook.com"><strong></strong> henrique.nazario.rocha@outlook.com</a></li>
         <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/henrique-nazario"><strong></strong> in/henrique-nazario</a></li>
         <li><i class="fa fa-phone"></i> <a href="https://wa.me/4915732470595"><strong></strong> +49 1573 2470595</a></li>
@@ -233,7 +247,7 @@
     <div class="side-block" id="languages">
       <h1>Languages</h1>
       <ul>
-        <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" width="20" height="15"> <strong>German:</strong> A2-B1 Level</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" width="20" height="15"> <strong>German:</strong> Intermediary Proficiency</li>
         <li><img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" width="20" height="15"> <strong>English:</strong> Professional Proficiency</li>
         <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="20" height="15"> <strong>Portuguese:</strong> Native Proficiency</li>
       </ul>
@@ -242,18 +256,18 @@
     <div class="side-block" id="skills">
       <h1>Skills</h1>
       <ul>
-        <li><strong>Programming:</strong> C, C++, Java</li>
-        <li><strong>Tools:</strong> Git, Docker, Spring Boot, AWS, MongoDB</li>
-        <li><strong>Payments:</strong> POS, ISO8583, EMV, Contactless Payments</li>
+        <li><strong>Programming Languages:</strong> C, C++, Java</li>
+        <li><strong>Development:</strong> Git, Docker, Spring Boot, AWS, MongoDB, Maven, JUnit</li>
+        <li><strong>Payments:</strong> EMV, PCI, ISO8583, ABECS</li>
       </ul>
     </div>
 
     <div class="side-block" id="awards">
       <h1>Awards</h1>
-      <ul>
-        <li><strong>2023:</strong> Recognition Award (SiDi, Samsung Global)</li>
-        <li><strong>2020:</strong> Motion of Applause (City Council of Ponta Grossa)</li>
-        <li><strong>2019:</strong> Global Nominee (NASA Space Apps Challenge)</li>
+            <ul>
+        <li>Recognition Award (Samsung Global, 2023)</li>
+        <li>Motion of Applause (City Council of Ponta Grossa, 2020)</li>
+        <li>Global Nominee (NASA Space Apps Challenge, 2019)</li>
       </ul>
     </div>
   </aside>
