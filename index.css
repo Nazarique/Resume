@@ -68,7 +68,6 @@ h1,
 h2,
 h3 {
   margin: 0;
-  color: #000;
 }
 
 li {
@@ -133,7 +132,7 @@ h2 {
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: #555;
+/*  color: #555;*/
 }
 
 #main h2 > i {
@@ -275,7 +274,7 @@ h2 {
 }
 
 .details h3 {
-  font-size: 9pt;
+  font-size: 7pt;
 }
 
 .main-block:not(.concise) .details div {
@@ -358,11 +357,10 @@ h2 {
 }
 
 .side-block {
-  margin-top: 0.6in;
+  margin-top: 0.25in;
 }
 
 #contact ul {
-  margin-top: 0.05in;
   padding-left: 0;
   font-family: "Source Code Pro";
   font-weight: 400;
