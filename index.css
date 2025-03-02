@@ -1,5 +1,5 @@
 @page {
-  size: letter portrait;
+  size: A4 portrait;
   margin: 0;
 }
 
@@ -13,8 +13,8 @@ html {
 }
 
 :root {
-  --page-width: 8.5in;
-  --page-height: 11in;
+  --page-width: 8.27in; /* Largura do A4 */
+  --page-height: 11.69in; /* Altura do A4 */
   --main-width: 5.9in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
